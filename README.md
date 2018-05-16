@@ -1,33 +1,10 @@
-# Technical Challenge - Lalamove
-## Tech/Infrastructure Intern
+# intern application from Jung Chan
 
-This exercise is designed to assess some basic knowledge of writing applications. These include, but are not limited to:
-- Writing code in Golang
-- Use the standard library for solving various algorithmic tasks
-- Implement well-documented third-party libraries
+First thing, I highly doubt this code will work. I have not tested it.
+I'm currently busy studying for exams, so I don't really have time to setup golang correctly on the computer
 
-Bonus points for:
-- Thorough test cases
-- Separation of logic
-- optimising the amount of API calls
+It would probably be much quicker for you to just look through the code in main.go(its not long)
 
-# Preamble
-We use a lot of Open Source software at Lalamove, and we want to be able to track when new versions of all of these applications are released. The open source community has mostly settled on using Github and its releases feature to publish releases and are also mostly using Semantic Versioning as their versioning structure.
+I have tried to write the progam in go to the best of my abilities, using some resources from the internet
 
-## The Challenge
-We want you to write a simple application that gives us the highest patch version of every release between a minimum version and the highest released version.
-It should be written in Go, reads the Github Releases list, uses SemVer for comparison and takes a path to a file as its first argument when executed. It reads this file, which is in the format of:
-```
-repository,min_version
-kubernetes/kubernetes,1.8.0
-prometheus/prometheus,2.2.0
-```
-and it should produce output to stdout in the format of:
-```
-latest versions of kubernetes/kubernetes: [1.10.1 1.9.6 1.8.11]
-latest versions of prometheus/prometheus: [2.2.1]
-```
-
-In this repository you will find two go files, one main.go which contains a skeleton for you to start developing your application, and one main_test.go, which contains some test cases that should pass when the application is ready. You run the tests by writing `go test`, and there are some cases that aren't tested for - can you figure them out?
-
-We will run your application through a number of test cases not mentioned here and compare the output with an application that produces the correct output.
+thank you for taking the time to glance through my code
